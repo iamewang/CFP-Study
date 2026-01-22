@@ -1,168 +1,144 @@
-# CFP Exam Study Repository
+# Claude AI学习仓库
 
-🎉 **I PASSED the CFP Exam on November 10, 2025!** 🎉
+这是一个使用AI辅助引导学习方法的Claude AI学习环境。学习Claude AI的一切，从基础原理到高级应用，API集成到提示工程。
 
-This is my personal study repository that helped me pass the Certified Financial Planner (CFP) exam on my second attempt. After failing in November 2024, I rebuilt my study approach using AI-powered guided learning with Claude Code - and it made all the difference.
-
-**Thanks to AI and Claude Code**, I went from a failed attempt to **82% mastery** (60/73 topics) across 23 focused study sessions, ultimately passing the exam.
-
-**Let's connect on LinkedIn**: [linkedin.com/in/chenran818](https://linkedin.com/in/chenran818) ,**Twitter(X)** [https://x.com/chenran818](https://x.com/chenran818) 和 **知乎**[https://www.zhihu.com/people/chenran](https://www.zhihu.com/people/chenran)
+**学习目标**：全面掌握Claude AI的8个知识领域，共49个核心话题。
 
 ---
 
-**Final Exam Stats**:
-- **Exam Date**: November 10, 2025 ✅ PASSED
-- **Final Progress**: 82% (60/73 CFP topics mastered)
-- **Study Sessions**: 23 sessions (Oct 11 - Nov 7, 2025)
-- **Study Materials**: 2024 Dalton Review slides (not included in repo)
+## 项目特色
 
-## How This Works
+### 🤖 AI引导学习
+- **苏格拉底式教学法**：先了解你的现有知识，再构建新的理解
+- **主动验证**：每次解释后检查理解程度
+- **适应性跟进**：根据你的反应调整教学方法
+- **会话式语言**：友好、非评判性的学习环境
 
-This repository uses Claude Code as an interactive CFP exam tutor that:
-- Teaches using the Socratic method (asking what you know first)
-- Provides concise (~200 word) explanations
-- Verifies your understanding with follow-up questions
-- Adapts teaching style based on your responses
-- **Tracks every learning session to personalize your study experience**
+### 📊 系统化跟踪
+- **详细进度跟踪**：8个知识领域，49个具体话题
+- **学习会话记录**：每次学习都有详细记录
+- **知识缺口识别**：系统识别和跟踪薄弱环节
+- **个性化学习路径**：基于你的进度调整学习重点
 
-## Repository Structure
+### 🎯 结构化知识体系
+基于Claude AI的完整知识体系，分为8个权重领域：
+
+1. **Claude基础原理 (20%)** - 模型架构、工作原理、核心概念
+2. **Claude API与集成 (15%)** - API使用、SDK集成、开发工具
+3. **Claude提示工程 (18%)** ⭐ - 提示设计、优化技巧、最佳实践
+4. **Claude高级功能 (15%)** - 工具使用、函数调用、搜索增强
+5. **Claude安全与最佳实践 (10%)** - 安全策略、合规使用、伦理准则
+6. **Claude应用场景 (12%)** - 代码辅助、内容创作、数据分析等
+7. **Claude模型比较与选型 (6%)** - 模型对比、选型策略、成本分析
+8. **Claude项目管理与部署 (4%)** - 架构设计、版本控制、运维管理
+
+## 仓库结构
 
 ```
-/sessions/                    # 23 daily learning sessions documented
-  /2025-10-11/               # One folder per study day
-  /2025-10-17/               # Sessions from Oct 11 - Nov 7
-  /2025-11-07/
-  SESSION-TEMPLATE.md        # Template for documenting sessions
+/sessions/                    # 学习会话记录
+  /YYYY-MM-DD/               # 按日期组织的学习会话
+    session-notes.md         # 详细的会话记录
+  SESSION-TEMPLATE.md        # 会话记录模板
 
-/progress/                    # Single source of truth for exam prep
-  cfp-study-tracker.md       # Comprehensive tracker with:
-                             # - All 73 CFP topics mapped
-                             # - Topics mastered (60/73)
-                             # - Knowledge gaps identified
-                             # - Study plan for remaining days
+/progress/                    # 学习进度跟踪
+  claude-study-tracker.md    # 综合进度跟踪器（单一事实来源）
+                             # - 所有49个Claude话题映射
+                             # - 话题掌握状态跟踪
+                             # - 知识缺口识别
+                             # - 个性化学习计划
 
-CLAUDE.md                     # AI tutor instructions (Socratic method)
-README.md                     # This file
+CLAUDE.md                     # AI导师指令（苏格拉底教学法）
+README.md                     # 本文件
 ```
 
-## How to Use
+## 如何使用
 
-### Daily Study Sessions
+### 开始学习
+1. 在仓库中打开Claude Code
+2. 自然提问关于Claude AI的话题 - 就像和导师对话一样
+3. 回答Claude提出的理解检查问题
+4. 每次会话后，Claude会自动记录：
+   - 你学习了什么
+   - 你遇到了什么困难
+   - 你掌握了什么
+   - 下次需要复习什么
 
-1. Open Claude Code in this repository
-2. Ask questions about CFP topics naturally - just like talking to a tutor
-3. Answer the comprehension check questions Claude asks
-4. After each session, Claude will automatically document:
-   - What you learned
-   - What you struggled with
-   - What you mastered
-   - What to review next
+### 复习学习
+当你想要复习时，只需询问Claude：
+- "我们来复习一下我比较薄弱的话题"
+- "今天我应该重点学习什么？"
+- "测试一下我的薄弱环节"
+- "显示我的学习进度"
 
-### Review Sessions
+Claude会读取你的会话历史，并根据你过去的表现创建个性化的复习内容。
 
-When you want to review, simply ask Claude:
-- "Let's review topics I've struggled with"
-- "What should I focus on today?"
-- "Quiz me on my weak areas"
-- "Show me my progress"
+### 跟踪进度
+查看综合学习跟踪器 `/progress/claude-study-tracker.md`，了解：
+- 整体学习进度（当前0%，49个话题）
+- 哪些领域已完成
+- 剩余的知识缺口
+- 优先级学习计划
 
-Claude will read your session history and create a personalized review based on your past performance.
+## 学习哲学
 
-### Track Your Progress
+**引导学习方法**：
+- 对话式和无评判性
+- 基于你现有的知识构建
+- 在继续前进前检查理解
+- 适应你的学习风格
+- 注重深度理解，不仅仅是记忆
 
-View your comprehensive study tracker at `/progress/cfp-study-tracker.md` to see:
-- Overall exam readiness (currently 82%)
-- Which domains are complete (4 major domains ✅)
-- Remaining knowledge gaps
-- Prioritized study plan for exam day
+## 学习材料
 
-## Study Philosophy
+本项目使用以下学习材料：
+- **Anthropic官方文档** - 核心知识来源
+- **API文档和教程** - 实践操作指南
+- **技术博客和社区文章** - 最新动态和最佳实践
+- **GitHub示例和项目** - 实际应用参考
 
-**Guided Learning Approach:**
-- Conversational and judgment-free
-- Builds on your existing knowledge
-- Checks understanding before moving forward
-- Adapts to your learning style
-- Focuses on deep understanding, not just memorization
+所有技术问题的答案都会使用权威来源验证，确保信息的准确性和时效性。
 
-## Study Materials
+## 关键特性
 
-I used the **2024 Dalton Review Slides** for my preparation (not included in this repo due to copyright). You can use your own CFP study materials - the AI tutor methodology works with any content.
+**个性化学习**：
+- 详细的会话记录和跟踪
+- 苏格拉底式教学方法（基于你已知的内容构建）
+- 基于你反应的适应性解释
+- 针对你薄弱环节的定制练习
 
-## Free Study Resources
+**全面跟踪**：
+- 每个会话自动记录
+- 知识缺口识别和跟踪
+- 话题掌握与置信度评估
+- 基于学习权重的进度测量
 
-In addition to the Dalton Review materials, here are some excellent **free resources** that can supplement your CFP exam prep:
+**基于证据的方法**：
+- 所有答案使用权威来源验证
+- 技术问题不猜测
+- 复杂规则提供引用
+- 注重理解"为什么"而不仅仅是"是什么"
 
-**Podcasts & Audio:**
-- [Open Exam Prep Podcast](https://open.spotify.com/show/55EmWfdtPaK641q4Rk3mI1) - Free CFP exam prep podcast on Spotify
-- [Financial Planning Essentials Playlist](https://open.spotify.com/playlist/6GUIZvnpaiOiYmXkanqwZ8) - Study music playlist on Spotify
+## 如何为本项目做贡献
 
-**Video Content:**
-- [Open Exam Prep YouTube](https://www.youtube.com/@Open-exam-prep) - Free video content covering CFP exam topics
+如果你发现任何问题或有改进建议：
+1. 创建Issue描述问题或建议
+2. 提交Pull Request包含具体改进
+3. 分享你的学习体验和反馈
 
-**Website:**
-- [open-exam-prep.com](https://open-exam-prep.com/) - Additional free resources and study materials
+## 开始学习
 
-These free resources are great for passive learning during commutes, workouts, or downtime.
-
-## Key Features
-
-**Personalized Learning**:
-- 23 documented study sessions with detailed notes
-- Socratic teaching method (builds on what you already know)
-- Adaptive explanations based on your responses
-- Practice problems tailored to your weak areas
-
-**Comprehensive Tracking**:
-- Every session automatically documented
-- Knowledge gaps identified and tracked
-- Topics mastered with confidence levels
-- Progress measured against exam weights
-
-**Evidence-Based Approach**:
-- All answers verified with authoritative sources (IRS.gov, CFP Board)
-- No guessing on technical questions
-- Citations provided for complex rules
-- Focus on understanding "why" not just "what"
-
-## How to Use This Repository for Your Own CFP Exam Prep
-
-Want to use this AI-powered study system for your own CFP exam preparation? It's simple:
-
-1. **Clone this repository**:
-   ```bash
-   git clone https://github.com/chenran818/CFP-Study.git
-   cd CFP-Study
-   ```
-
-2. **Clear my study history** (start fresh):
-   ```bash
-   rm -rf progress/ sessions/
-   ```
-
-3. **Run Claude Code**:
-   ```bash
-   claude-code
-   ```
-
-4. **That's it!** Start asking CFP questions and Claude will:
-   - Teach you using the Socratic method
-   - Create new `progress/` and `sessions/` folders automatically
-   - Track your learning journey just like it did for me
-   - Adapt to your learning style
-
-The `CLAUDE.md` file contains all the instructions for how Claude should tutor you. **It works magically!**
-
-## Getting Started
-
-Just start a conversation with Claude Code and ask your first CFP question. Claude will guide you from there while automatically tracking your progress.
+只需开始与Claude Code对话，提出你的第一个Claude AI相关问题。Claude会引导你，同时自动跟踪你的进度。
 
 ---
 
-## About the Author
+## 关于本项目
 
-After failing the CFP exam in November 2024, I knew I needed a different approach. Traditional study methods weren't working for me. Using Claude Code as my AI study partner transformed my preparation - the Socratic teaching method, personalized feedback, and systematic progress tracking made complex financial planning concepts finally click.
+这个项目将专业的引导学习方法应用于Claude AI学习，帮助开发者、技术爱好者和AI从业者系统化地掌握Claude AI。
 
-If you're preparing for the CFP exam or any professional certification, I hope this repository inspires you to leverage AI tools in your learning journey.
+**核心价值**：
+- 结构化学习路径避免知识碎片化
+- 进度跟踪确保系统性覆盖
+- 实践导向强调实际应用能力
+- 持续更新跟进技术发展
 
-**Connect with me**: [linkedin.com/in/chenran818](https://linkedin.com/in/chenran818)
+无论你是Claude AI的初学者，还是希望深化理解的进阶用户，这个学习系统都能为你提供个性化的学习体验。

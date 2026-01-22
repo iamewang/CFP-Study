@@ -1,65 +1,107 @@
-# Session Notes - [DATE]
+# 会话记录 - [日期]
 
-## Session Overview
-- **Date**: [YYYY-MM-DD]
-- **Duration**: [Approximate time spent]
-- **Main Topics**: [Brief list]
-
----
-
-## Questions Asked
-
-### Question 1: [Topic]
-**Student's Question**: [Exact question or topic requested]
-
-**Initial Understanding**: [What student knew before explanation]
-
-**Explanation Given**: [Summary of concept explained]
-
-**Comprehension Check**:
-- Question asked: [Verification question posed]
-- Student's response: [How they answered]
-- Understanding level: [Strong/Partial/Needs more work]
-
-**Follow-up**: [Additional clarifications or next steps]
+## 会话概览
+- **日期**: [YYYY-MM-DD]
+- **时长**: [大约花费的时间]
+- **形式**: [一对一辅导、自主练习、项目实践等]
+- **主要话题**: [简要列表]
 
 ---
 
-### Question 2: [Topic]
-[Same structure as above]
+## 提出的问题
+
+### 问题 1: [话题]
+**学生的问题**: [确切的问题或请求的话题]
+
+**初始理解**: [解释前学生已知的内容]
+
+**给出的解释**: [解释的概念摘要]
+
+**理解检查**:
+- 提出的问题: [验证问题]
+- 学生的回答: [他们如何回答]
+- 理解程度: [良好/部分/需要更多练习]
+
+**跟进**: [额外的澄清或后续步骤]
 
 ---
 
-## Knowledge Gaps Identified
-
-| Topic | Severity | Notes |
-|-------|----------|-------|
-| [Topic name] | High/Med/Low | [What was challenging] |
+### 问题 2: [话题]
+[与上面相同的结构]
 
 ---
 
-## Topics Mastered Today
+## 识别的知识缺口
 
-| Topic | Confidence | Notes |
-|-------|------------|-------|
-| [Topic name] | High/Med | [What they understood well] |
-
----
-
-## Key Concepts Covered
-
-- **[Concept 1]**: [Brief note]
-- **[Concept 2]**: [Brief note]
+| 话题 | 严重程度 | 备注 |
+|------|----------|------|
+| [话题名称] | 高/中/低 | [什么有挑战性] |
 
 ---
 
-## Action Items for Next Session
+## 今天掌握的话题
 
-- [ ] Review: [Topics that need follow-up]
-- [ ] Practice: [Areas needing more examples]
-- [ ] Explore: [New related topics to cover]
+| 话题 | 置信度 | 备注 |
+|------|--------|------|
+| [话题名称] | 高/中 | [他们理解得好的内容] |
 
 ---
 
-## Notes
-[Any additional observations about learning style, common mistakes, areas of strength, etc.]
+## 涵盖的关键概念
+
+- **[概念 1]**: [简要说明]
+- **[概念 2]**: [简要说明]
+
+---
+
+## 下次会话的行动项
+
+- [ ] 复习: [需要跟进的话题]
+- [ ] 练习: [需要更多示例的领域]
+- [ ] 探索: [需要涵盖的新相关话题]
+
+---
+
+## 备注
+[关于学习风格、常见错误、优势领域等的任何额外观察。]
+
+---
+
+## Claude学习特定记录
+
+### 提示工程实践
+- **使用的提示技巧**: [思维链、少样本学习、角色扮演等]
+- **提示效果评估**: [效果如何，哪些可以改进]
+- **优化的提示**: [如果有，记录优化后的提示]
+
+### API/代码实践
+- **尝试的API调用**: [如果有，记录API使用情况]
+- **代码示例**: [编写或调试的代码]
+- **技术问题**: [遇到的技术挑战和解决方案]
+
+### 实际应用
+- **应用场景**: [学习的实际应用案例]
+- **项目进展**: [如果有相关项目，记录进展]
+- **创意产出**: [生成的创意内容或想法]
+
+---
+
+## 学习效果评估
+
+### 掌握程度
+- **完全掌握**: [哪些概念完全理解]
+- **部分掌握**: [哪些概念还需要练习]
+- **尚未掌握**: [哪些概念需要重新学习]
+
+### 学习效率
+- **有效学习方法**: [什么方法效果最好]
+- **改进建议**: [如何提高未来学习效果]
+
+### 下一步重点
+- **立即跟进**: [下次会话前需要做什么]
+- **长期目标**: [与整体学习目标的关系]
+
+---
+
+**记录人**: Claude学习助手
+**记录时间**: [记录时间]
